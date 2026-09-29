@@ -21,8 +21,7 @@ Consider: What patterns did you observe in the SMAP data? How might those patter
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
-
+>In Task A, I noticed that most SMAP telemetry values followed regular patterns, while anomalies appeared as sudden or unusual changes in one or more channels. The heatmap made it easier to see that anomalies may not always affect every channel in the same way. This is important for an autoencoder-based anomaly detector because the model would need to learn the normal patterns across multiple channels. Large reconstruction errors could then help identify unusual behavior. The variety in the data also shows why the model should consider several signals together instead of relying on only one channel.
 ---
 
 ## Question 2 — Self-Assessment of Readiness
@@ -33,7 +32,7 @@ Be honest. There are no wrong answers — this helps us plan the onboarding sche
 
 **Your response (75–100 words):**
 
-> _Replace this text with your answer._
+>I think my biggest challenges would be improving my Python skills and learning more about machine learning concepts. I understand basic statistics and data analysis, but I still need practice with coding, interpreting models, and understanding how neural networks such as autoencoders work. My plan is to practice Python regularly, review statistics concepts, and work through examples using pandas and matplotlib. I would also ask questions when I am unsure and use tutorials or course resources to strengthen my understanding before working on more advanced research tasks.
 
 ---
 
